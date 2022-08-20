@@ -57,13 +57,6 @@ public class LecturaArchivo {
             ex.printStackTrace();
         }
         
-        for(int i=0;i<19;i++){
-            for(int j= 0;j<15;j++){
-                System.out.print(matriz[i][j]+" | ");
-            }
-            System.out.println("");
-            
-        }
         
     }
     
