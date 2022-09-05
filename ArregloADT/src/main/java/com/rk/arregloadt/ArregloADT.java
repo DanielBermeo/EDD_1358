@@ -64,7 +64,7 @@ public class ArregloADT <T>{
     
     
     private boolean comprobarIndice(int indice){
-        if(indice>0 && indice<tamanio){
+        if(indice>=0 && indice<tamanio){
             return true;
         }else{
             return false;
